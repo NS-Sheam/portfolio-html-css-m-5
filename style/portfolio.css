@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+}
+.section-title {
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+/* basic css ends */
+/* Header starts */
+header {
+    background: url(..//images/header_bg.png) no-repeat, url(..//images/developer.png) no-repeat;
+    background-position: right bottom, left;
+    background-color: #FFF8F3;
+}
+
+nav .logo {
+    font-size: 45px;
+    color: #181818;
+}
+
+nav .logo span {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+nav a {
+    color: #474747;
+}
+
+/* Header ends */
+/* Banner starts */
+.banner {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+
+
+.banner h3 {
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner h1 {
+    font-size: 80px;
+    color: #181818;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding: 20px 0 30px;
+}
+
+.btn-contact {
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: #FD6E0A solid 2px;
+    margin-left: 30px;
+}
+.banner img{
+   display: block;
+}
+
+/* Banner ends */
+/* About section starts */
+.about {
+    margin: 130px 200px 0;
+    padding: 130px;
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+
+
+.about-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding: 30px 0;
+}
+
+.about-info {
+    display: flex;
+    gap: 50px;
+}
+
+.about-info .info-name {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-info .info-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* About section ends */
+/* What I do section starts */
+
+.what-i-do {
+    margin: 130px 200px 0;
+    text-align: center;
+}
+
+.what-i-do .description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding: 30px 145px 50px;
+}
+
+
+.skill {
+    display: flex;
+    gap: 25px;
+    text-align: left;
+}
+
+.skill-item {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-name {
+    color: #181818;
+    ;
+    padding-top: 30px;
+}
+
+.skill-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-top: 20px;
+}
+
+/* What I do section ends */
+/* Resume section starts */
+.resume{
+    margin: 130px 200px;
+}
+.edu-exp h3, h4, h5, p{
+    padding-right: 22px;
+}
+.edu-exp{
+    padding-top: 110px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.edu-exp h3{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.edu-exp h4{
+    font-size: 25px;
+    color: #474747;
+}
+.edu-exp h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+}
+.edu-exp p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-top: 20px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+.resume .resume-btn{
+    text-align: center;
+}
+/* Resume section ends */
+/* footer section starts */
+.footer{
+    padding: 130px 200px;
+    background: #FFF8F3;
+    display: flex;
+    gap: 110px;
+}
+.footer h3{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.footer p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+.footer .icon img{
+    margin-right: 25px;
+}
+.footer input[type="text"], input[type="email"], textarea{
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    width: 100%;
+    border: none;
+}
+
+/* footer section ends */
